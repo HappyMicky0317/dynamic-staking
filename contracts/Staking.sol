@@ -154,7 +154,7 @@ contract Staking is
     if (currentRatio > stakedRatio) {
       rewards = (sharesToWithdraw * (currentRatio - stakedRatio)) / base;
     }
-    // for sending dfd asdasdsdf
+    // for sending dfd asdasdsdf ert
 
     stakeholderToStake[msg.sender].shares -= sharesToWithdraw;
     stakeholderToStake[msg.sender].stakedSTK -= stakeAmount;
