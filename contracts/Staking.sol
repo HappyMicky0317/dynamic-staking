@@ -59,7 +59,6 @@ contract Staking is
     require(initialRatioFlag, "Initial Ratio has not yet been set");
     _;
   }
-  // test dfdf staking
 
   function initialize(
     address admin1,
